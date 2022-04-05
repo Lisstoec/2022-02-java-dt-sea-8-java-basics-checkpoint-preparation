@@ -1,65 +1,68 @@
 Q: What is the default branch of a git repository called?
-A:
+A: master
 
 Q: How do you change branches using git?
-A:
+A: git checkout <branch>
 
 Q: What is the command that allows you to create a local repository from a remote repository?
-A:
+A: git clone <remote repo>
 
 Q: How do you check the status of the working directory of the local repository?
-A:
+A: git status
 
 Q: What sequence of commands allows me to share new changes in a local repository with an (already configured) remote repository?
-A:
+A: 
+git add .
+git commit -m "commit comment"
+git push <remote repo>
 
 Q: What is the value of the expression (true && false)?
-A:
+A: AND logic - true && false == false
 
 Q: How can you write `i = i + 1` more concisely?
-A:
+A: i++
 
 Q: What does the term "concatenation" mean?
-A:
+A: It's the process of concatenating two or more Strings to create a big one (mostly using the + Operator)
 
 Q: Why is the check for "equals" with (object == object) not reliable? What should you use for check of equal objects?
-A:
+A: The "==" operation only compares the equality of two references. It's recommended to use the "equal" methods instead.
 
 Q: What Collection implementation is ordered, but not sorted?
-A:
+A: Array list
 
 Q: What Collection implementation has only unique elements?
-A:
+A: Set
 
 Q: How can we find out the number of elements of an array named "students"?
-A:
+A: students.length
 
 Q: How can we find out the number of elements of a list named "students"?
-A:
+A: students.size()
 
 Q: In Java, what happens if I divide by Zero (eg. 8 / 0)?
-A:
+A: It throws an Exception
 
 Q: How can you check if File quiz = new File("quiz.txt") exists?
-A:
+A: quiz.exists()
 
 Q: Depending on some attributes, an object should return isAllowed(). Should the method be static or not, why?
-A:
+A: // Könnte ich jetzt googlen und hier reinschreiben, ehrlicherweise werd ich das aber nochmal im Nachgang aufarbeiten um es richtig zu verstehen.
 
 Q: What is the signature of the `main` method of a class?
-A:
+A: public static void main(String[] args)
 
 Q: What is an instance of a class?
-A:
+A: It's an object created with this class
 
 Q: Which naming rule should you apply to the naming of a class?
-A:
+A: You should write it in camelCase (mix of lower and 
 
 Q: Why should the usage of java.util.Date be avoided?
-A:
+A: java.util.Date has Date and Time mixed in one Object
 
 Q: What Java class do you use to store the Date "31.10.2021"?
-A:
+A: GregorianCalendar
 
 Q: What is the advantage of using Generics?
-A:
+A: // Könnte ich jetzt googlen und hier reinschreiben, ehrlicherweise werd ich das aber nochmal im Nachgang aufarbeiten um es richtig zu verstehen.
